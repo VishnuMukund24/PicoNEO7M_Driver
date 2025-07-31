@@ -4,7 +4,7 @@
 int main() {
     stdio_init_all();
 
-    NEO7M gps(uart1, 8, 9); // TX = GP4, RX = GP5
+    NEO7M gps(uart1, 8, 9); // TX = GP8, RX = GP9
     gps.init();
 
     while (true) {
